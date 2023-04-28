@@ -112,4 +112,4 @@ const cache = new Peko.ResponseCache({ lifetime: 5000 });
 server.addRoute("/do-stuff", Peko.cacher(cache), () => new Response(Date.now()));
 ```
 
-And that's it! Check out the API docs for deeper info. Otherwise happy coding 🤓
+And that's it! Check out the API docs for deeper info. Otherwise happy coding
